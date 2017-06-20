@@ -1,0 +1,55 @@
+{
+  "parser": "babel-eslint",
+  # Linter rules from airbnb
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "rules": {
+    # Disabling linebreak style so that errors doesn't appear on different OS
+    "linebreak-style": 0,
+    # Prefer using stateless functions when possible
+    "react/prefer-stateless-function": 1,
+    # Not required to use .jsx endind when naming files
+    "react/jsx-filename-extension": 0,
+    # No semi colon's
+    "semi": ["error", "never"],
+    # Give error when import files with .js/.jsx endings
+    "react/require-extension": 0,
+    # Ignore when importing extensions
+    "import/extensions": ["off", "never"],
+    "no-param-reassign": ["error", { "props": false }],
+    "react/require-default-props": 0,
+    "indent": ["error", 4],
+    # Format jsx to 4 spaces
+    "react/jsx-indent": 0,
+    "consistent-return": 0,
+    "import/no-named-as-default": 0,
+    # Allow console warnings and errors
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    # Temporarily change setState in componentDidMount to a warning
+    "react/no-did-mount-set-state": [1],
+    # Temporarily change a href=# to a warning
+    "jsx-a11y/href-no-hash": [1],
+    # Allow unary operators (++/--) in for loops
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+  },
+    "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".json",
+          ".scss"
+        ],
+        "moduleDirectory": [
+          "node_modules",
+          "shared",
+        ]
+      }
+    }
+  }
+}
