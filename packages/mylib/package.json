@@ -33,5 +33,11 @@
   "repository": "",
   "keywords": [
     "react-component"
-  ]
+  ],
+  "craGenerate": {
+    "fileFormat": "pascalCase",
+    "cssExtension": "scss",
+    "directory": "lib/components",
+    "semi": false
+  }
 }

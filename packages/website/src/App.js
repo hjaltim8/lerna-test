@@ -1,4 +1,5 @@
 import React from 'react'
+import { LoadingButton } from 'mylib'
 // import { Hello } from 'components'
 import logo from './logo.svg'
 import styles from './App.scss'
@@ -10,6 +11,7 @@ const App = () =>
             <h2>Welcome to React</h2>
         </div>
         { /* <Hello /> */ }
+        <LoadingButton>Load</LoadingButton>
         <p className={styles['App-intro']}>
             To get started, edit <code>src/App.js</code> and save to reload.
         </p>
