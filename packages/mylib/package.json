@@ -37,7 +37,7 @@
   "craGenerate": {
     "fileFormat": "pascalCase",
     "cssExtension": "scss",
-    "directory": "lib/components",
+    "directory": "components",
     "semi": false
   }
 }

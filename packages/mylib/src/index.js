@@ -1,1 +1,1 @@
-export { default as LoadingButton } from './lib/components/LoadingButton'
+export { default as LoadingButton } from './components/LoadingButton'
