@@ -4,8 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "components": "^0.1.0"
+    "react-dom": "^15.6.1"
   },
   "devDependencies": {
     "autoprefixer": "7.1.0",
